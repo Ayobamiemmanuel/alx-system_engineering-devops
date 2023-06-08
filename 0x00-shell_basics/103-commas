@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -p | sort -d -k1.1 | awk '{printf "%s, ", $0}'
+
